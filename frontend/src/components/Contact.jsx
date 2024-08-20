@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     await axios
       .post(
-        "https://mern-project-ymqv.onrender.com/api/v1/message/send",
+        "https://mern-project2-1.onrender.com/api/v1/message/send",
         {
           name,
           email,
